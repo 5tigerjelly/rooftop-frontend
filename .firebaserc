@@ -1,7 +1,5 @@
 {
   "projects": {
-    "default": "tigerjelly-com-51229",
-    "stagin": "rooftop-landing-page",
-    "staging": "rooftop-landing-page"
+    "default": "rooftop-landing-page"
   }
 }
