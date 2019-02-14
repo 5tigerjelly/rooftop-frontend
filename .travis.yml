@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-- node
+  - node
 script:
-- 
+  -
 branches:
   only:
-  - master
+    - master
 deploy:
   provider: s3
   access_key_id: AKIAIJUAZCC2KA7PPCMQ
   secret_access_key:
     secure: J0gPSwz70BX7oQRKjIipnKC2dvb6ABPIJqoiDAlFUs41ERsxeKPLYxgFqHiUzansIT+l9HWKEzhRZnIkLWw4/JAhqqb0B31H0o1mhBQqUAbH685CNMWiDzpifxDGXLdMV5CkX0DEd+FiuI78YhiLNVhWSd8P+conLMOKwSXX9trY1FExP8NGIBU+IiSVO+4Tv0jH/8DFWntATzsXO5ffKQuXM+kTWEgHQChesQy2qovWKtcbCXDKaDvFIXKGYEsee6veE/vD1raeXNeXzkmfP7+sPk8ynb2wSRZ3ljLKzB1/9RIZ0UcJD6EBLOABEoxvayFHmX8586tXXDczuoMvGKf5qqLxzrYnIUr4creSQlCe4XbEc8zYD3FmBrBkHUfUs7HwOC3DbfP8aIlZg2OC9fl1NknwY+yyl2LNTnEfpI6XamCgo9OzW9cs6pK4CXGNc5Zm8q8hkFQizBo+jct2UwzBZIuKep4fHjjogJyoi1b7EeiseFkIzqmU99Iix8fVRAzo+kVtQwLbQc+twrCryKHMuqTDw0sZJPimvoV52fAQt+RW2WKFZG4V4K/vDzex3j+EGXnsE6LolhU3OargDkr25ZG7OuLPSdBOG31j7K0sCP7+R65wFHLtOehHYDB+4IB1AC7KHB2p8OfCZv5uKBIRRJqQyt4nITBCr2c45I4=
-  bucket: S3 Bucket
+  bucket: "rooftop.city"
