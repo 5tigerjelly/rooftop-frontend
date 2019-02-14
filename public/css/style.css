@@ -1890,7 +1890,7 @@ canvas#canvasbg {
 
   .outer-home {
     position: relative;
-    height: auto !important;
+    /* height: auto !important; */
   }
 
   #home {
